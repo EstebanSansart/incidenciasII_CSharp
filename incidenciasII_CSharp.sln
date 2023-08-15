@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{2315BBC0-4E16-4B58-99CD-0F54C9AC9389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistencia\Persistencia.csproj", "{125975E8-068C-46DA-80B6-C3654F162730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiIncidenciasII", "ApiIncidenciasII\ApiIncidenciasII.csproj", "{B917916A-C3DB-40AC-AFD4-065432E8DB39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2315BBC0-4E16-4B58-99CD-0F54C9AC9389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2315BBC0-4E16-4B58-99CD-0F54C9AC9389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2315BBC0-4E16-4B58-99CD-0F54C9AC9389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2315BBC0-4E16-4B58-99CD-0F54C9AC9389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125975E8-068C-46DA-80B6-C3654F162730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125975E8-068C-46DA-80B6-C3654F162730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125975E8-068C-46DA-80B6-C3654F162730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125975E8-068C-46DA-80B6-C3654F162730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B917916A-C3DB-40AC-AFD4-065432E8DB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B917916A-C3DB-40AC-AFD4-065432E8DB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B917916A-C3DB-40AC-AFD4-065432E8DB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B917916A-C3DB-40AC-AFD4-065432E8DB39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
