@@ -12,11 +12,11 @@ namespace Persistencia.Data.Configuration
 
             builder.HasKey(e => e.IdPais);
             builder.Property(e => e.IdPais)
-            .HasMaxLengh(3);
+            .HasMaxLength(3);
 
             builder.Property(p => p.NombrePais)
-            .IsRequired();
-            .HasMaxLengh(50);
+            .IsRequired()
+            .HasMaxLength(50);
         }
     }
 }

@@ -12,15 +12,15 @@ namespace Persistencia.Data.Configuration
 
             builder.HasKey(e => e.IdCiudad);
             builder.Property(e => e.IdCiudad)
-            .HasMaxLenght(3);
+            .HasMaxLength(3);
 
             builder.Property(p => p.NombreCiudad)
            .IsRequired()
-           .HasMaxLengh(50);
+           .HasMaxLength(50);
 
            builder.HasOne(p => p.Departamento)
            .WithMany(p => p.Ciudades)
-           .HasForeignKey(p = p.IdDepFk);
+           .HasForeignKey(p => p.IdDepFk);
         }
     }
 }

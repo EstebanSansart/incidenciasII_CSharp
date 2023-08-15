@@ -14,8 +14,8 @@ namespace Persistencia.Data.Configuration
             builder.Property(e => e.IdSalon);
 
             builder.Property(p => p.NombreSalon)
-            .IsRequired();
-            .HasMaxLengh(50);
+            .IsRequired()
+            .HasMaxLength(50);
 
             builder.Property(p => p.Capacidad)
            .HasColumnType("int");

@@ -12,11 +12,11 @@ namespace Persistencia.Data.Configuration
 
             builder.HasKey(e => e.IdGenero);
             builder.Property(e => e.IdGenero)
-            .HasMaxLengh(3);
+            .HasMaxLength(3);
 
             builder.Property(p => p.NombreGenero)
-            .IsRequired();
-            .HasMaxLengh(50);
+            .IsRequired()
+            .HasMaxLength(50);
         }
     }
 }

@@ -12,14 +12,14 @@ namespace Persistencia.Data.Configuration
 
             builder.HasKey(e => e.IdPersona);
             builder.Property(e => e.IdPersona)
-            .HasMaxLengh(3);
+            .HasMaxLength(3);
 
             builder.Property(p => p.NombrePersona)
-            .IsRequired();
-            .HasMaxLengh(50);
+            .IsRequired()
+            .HasMaxLength(50);
 
             builder.HasOne(p => p.Genero)
-            .WithMany(p => personas)
+            .WithMany(p => p.Personas)
             .HasForeignKey(p => p.IdGeneroFk);
 
             builder.HasOne(p => p.Ciudad)

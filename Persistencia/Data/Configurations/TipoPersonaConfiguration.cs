@@ -13,9 +13,9 @@ namespace Persistencia.Data.Configuration
             builder.HasKey(e => e.IdTipoPersona);
             builder.Property(e => e.IdTipoPersona);
 
-            builder.Property(p => p.NombreTipoPersona)
-            .IsRequired();
-            .HasMaxLengh(50);
+            builder.Property(p => p.DescripcionTipoPersona)
+            .IsRequired()
+            .HasMaxLength(50);
         }
     }
 }

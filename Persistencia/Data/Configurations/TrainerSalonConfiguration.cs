@@ -11,7 +11,7 @@ namespace Persistencia.Data.Configuration
             builder.ToTable("trainer_salon");
 
             builder.Property(p => p.IdPerTrainerFk)
-            .HasMaxLengh(20);
+            .HasMaxLength(20);
 
             builder.Property(p => p.IdSalonFk)
             .HasColumnType("int");

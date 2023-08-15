@@ -12,11 +12,11 @@ namespace Persistencia.Data.Configuration
 
             builder.HasKey(e => e.IdDep);
             builder.Property(e => e.IdDep)
-            .HasMaxLengh(3);
+            .HasMaxLength(3);
 
             builder.Property(p => p.NombreDep)
-            .IsRequired();
-            .HasMaxLengh(50);
+            .IsRequired()
+            .HasMaxLength(50);
 
             builder.HasOne(p => p.Pais)
             .WithMany(p => p.Departamentos)
