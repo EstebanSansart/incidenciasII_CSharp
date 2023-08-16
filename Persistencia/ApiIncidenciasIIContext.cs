@@ -1,3 +1,4 @@
+using System.Reflection;
 using Dominio;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,5 +18,13 @@ namespace Persistencia
         public DbSet<Salon> Salones { get; set; }
         public DbSet<TipoPersona> TipoPersonas { get; set; }
         public DbSet<TrainerSalon> TrainerSalones { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TrainerSalon>().HasKey(r => new{r.IdSalonFk, r.IdPerTrainerFk});
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
     }
 }

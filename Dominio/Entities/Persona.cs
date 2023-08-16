@@ -6,7 +6,7 @@ public class Persona
     public string NombrePersona { get; set; }
     public int IdGeneroFk { get; set; }
     public Genero Genero { get; set; }
-    public int IdCiudadFk { get; set; }
+    public string IdCiudadFk { get; set; }
     public Ciudad Ciudad { get; set; }
     public int IdTipoPerFk { get; set; }
     public TipoPersona TipoPersona { get; set; }
