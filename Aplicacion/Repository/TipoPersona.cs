@@ -8,9 +8,9 @@ using Dominio.Interfaces;
 using Persistencia;
 
 namespace Aplicacion.Repository;
-public class PaisRepository : GenericRepository<Pais>, IPaisRepository
+public class TipoPersonaRepository : GenericRepository<TipoPersona>, ITipoPersonaRepository
 {
-    public PaisRepository(ApiIncidenciasIIContext contex) : base(contex)
+    public TipoPersonaRepository(ApiIncidenciasIIContext contex) : base(contex)
     {
     }
 }
