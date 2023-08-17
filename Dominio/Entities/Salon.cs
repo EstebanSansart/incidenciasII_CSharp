@@ -1,6 +1,6 @@
-namespace Dominio;
+namespace Dominio.Entities;
 
-public class Salon
+public class Salon : EntidadBase
 {
     public int IdSalon { get; set; }
     public string NombreSalon { get; set; }

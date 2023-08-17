@@ -1,7 +1,8 @@
+using System.Net.Sockets;
 using System.Linq.Expressions;
-using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Persistencia;
+using Dominio.Entities;
 using Dominio.Interfaces;
 
 namespace Aplicacion.Repository;

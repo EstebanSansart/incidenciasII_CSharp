@@ -1,6 +1,6 @@
-namespace Dominio;
+namespace Dominio.Entities;
 
-public class Pais
+public class Pais : EntidadBase
 {
     public string IdPais { get; set; }
     public string NombrePais { get; set; }

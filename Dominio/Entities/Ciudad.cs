@@ -1,6 +1,6 @@
-namespace Dominio;
+namespace Dominio.Entities;
 
-public class Ciudad
+public class Ciudad : EntidadBase
 {
     public string IdCiudad { get; set; }
     public string NombreCiudad { get; set; }

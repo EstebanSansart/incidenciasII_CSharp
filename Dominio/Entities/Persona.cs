@@ -1,6 +1,6 @@
-namespace Dominio;
+namespace Dominio.Entities;
 
-public class Persona
+public class Persona : EntidadBase
 {
     public string IdPersona { get; set; }
     public string NombrePersona { get; set; }

@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using Dominio.Entities;
 
 namespace Dominio.Interfaces;
 public interface IGenericRepository<T> where T : EntidadBase

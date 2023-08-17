@@ -1,6 +1,6 @@
-namespace Dominio;
+namespace Dominio.Entities;
 
-public class TrainerSalon
+public class TrainerSalon : EntidadBase
 {
     public string IdPerTrainerFk { get; set; }
     public Persona Persona { get; set; }

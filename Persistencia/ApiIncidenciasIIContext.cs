@@ -1,5 +1,5 @@
 using System.Reflection;
-using Dominio;
+using Dominio.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistencia

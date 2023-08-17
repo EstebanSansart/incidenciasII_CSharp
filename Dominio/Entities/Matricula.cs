@@ -1,6 +1,6 @@
-namespace Dominio;
+namespace Dominio.Entities;
 
-public class Matricula
+public class Matricula : EntidadBase
 {
     public int IdMatricula { get; set; }
     public string IdPersonaFk { get; set; }

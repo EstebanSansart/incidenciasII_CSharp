@@ -1,6 +1,6 @@
-namespace Dominio;
+namespace Dominio.Entities;
 
-public class Departamento
+public class Departamento : EntidadBase
 {
     public string IdDep { get; set; }
     public string NombreDep { get; set; }
