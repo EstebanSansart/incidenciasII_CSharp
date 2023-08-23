@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiIncidencias.Controllers;
+namespace ApiIncidenciasII.Controllers;
 
 [ApiController]
 [Route("api/incidencias/[controller]")]
