@@ -5,6 +5,8 @@ using Dominio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiIncidenciasII.Controllers;
+[ApiVersion("1.0")]
+[ApiVersion("1.1")]
 public class PaisController : BaseApiController
 {
     private readonly IUnitOfWork _unitOfWork;
@@ -25,9 +27,9 @@ public class PaisController : BaseApiController
         return Ok(regiones);
     }*/
     [HttpGet]
+    [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    
     public async Task<ActionResult<IEnumerable<PaisDto>>> Get()
     {
         var paises = await _unitOfWork.Paises.GetAllAsync();
@@ -35,6 +37,7 @@ public class PaisController : BaseApiController
     }
 
     [HttpGet("{id}")]
+    [MapToApiVersion("1.1")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Get(string id)
@@ -70,7 +73,7 @@ public class PaisController : BaseApiController
         return CreatedAtAction(nameof(Post), new {id = paisDto.Id}, paisDto);
     }
 
-    [HttpPut("{id}")]
+    /*[HttpPut("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -80,6 +83,18 @@ public class PaisController : BaseApiController
         _unitOfWork.Paises.Update(pais);
         await _unitOfWork.SaveAsync();
         return pais;
+    }*/
+    [HttpPut("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<PaisDto>> Put(string id, [FromBody]PaisDto paisDto){
+        if(paisDto == null)
+            return NotFound();
+        var paises = _mapper.Map<Pais>(paisDto);
+        _unitOfWork.Paises.Update(paises);
+        await _unitOfWork.SaveAsync();
+        return paisDto;
     }
 
     [HttpDelete("{id}")]
