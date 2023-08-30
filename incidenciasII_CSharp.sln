@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiIncidenciasII", "ApiInci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion", "Aplicacion\Aplicacion.csproj", "{D6FDD43F-9787-4B06-B6BC-49FC9673E3B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seguridad", "Seguridad\Seguridad.csproj", "{371B57F7-AEC4-4A42-A6E7-28570E8586F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D6FDD43F-9787-4B06-B6BC-49FC9673E3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6FDD43F-9787-4B06-B6BC-49FC9673E3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6FDD43F-9787-4B06-B6BC-49FC9673E3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371B57F7-AEC4-4A42-A6E7-28570E8586F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371B57F7-AEC4-4A42-A6E7-28570E8586F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371B57F7-AEC4-4A42-A6E7-28570E8586F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371B57F7-AEC4-4A42-A6E7-28570E8586F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -6015,33 +6015,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhose\\.nuget\\packages\\": {}
+    "C:\\Users\\APM01-46\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\ApiIncidenciasII\\ApiIncidenciasII.csproj",
+      "projectUniqueName": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\ApiIncidenciasII\\ApiIncidenciasII.csproj",
       "projectName": "ApiIncidenciasII",
-      "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\ApiIncidenciasII\\ApiIncidenciasII.csproj",
-      "packagesPath": "C:\\Users\\jhose\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\ApiIncidenciasII\\obj\\",
+      "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\ApiIncidenciasII\\ApiIncidenciasII.csproj",
+      "packagesPath": "C:\\Users\\APM01-46\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\ApiIncidenciasII\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jhose\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\APM01-46\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }
@@ -6106,7 +6105,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

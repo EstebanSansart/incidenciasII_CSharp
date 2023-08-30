@@ -5045,19 +5045,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhose\\.nuget\\packages\\": {}
+    "C:\\Users\\APM01-46\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\jhose\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\APM01-46\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jhose\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\APM01-46\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5110,7 +5110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
