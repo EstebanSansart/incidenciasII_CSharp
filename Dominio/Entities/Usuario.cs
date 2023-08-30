@@ -1,4 +1,5 @@
 namespace Dominio.Entities;
+
 public class Usuario : EntidadBaseA
 {
     public string Username { get; set; }

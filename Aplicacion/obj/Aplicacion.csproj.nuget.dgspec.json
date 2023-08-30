@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj": {}
+    "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\APM01-46\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\jhose\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM01-46\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jhose\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj"
+              "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -60,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\APM01-46\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\jhose\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM01-46\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jhose\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -127,21 +127,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\APM01-46\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\jhose\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM01-46\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jhose\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -153,8 +153,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\APM01-46\\Desktop\\Esteban\\incidenciasII_CSharp\\Dominio\\Dominio.csproj"
+              "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\jhose\\OneDrive\\Escritorio\\Programación\\CAMPUS\\cSharp\\incidenciasII_CSharp\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -194,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

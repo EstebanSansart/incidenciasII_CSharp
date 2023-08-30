@@ -18,7 +18,7 @@ namespace Persistencia
         public DbSet<Salon> Salones { get; set; }
         public DbSet<TipoPersona> TipoPersonas { get; set; }
         public DbSet<TrainerSalon> TrainerSalones { get; set; }
-        public object Usuarios { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -18,6 +18,5 @@ public class UsuarioRepository : GenericRepositoryB<Usuario>, IUsuarioRepository
         return await _context.Usuarios
                             .Include(u=>u.Roles)
                             .FirstOrDefaultAsync(u=>u.Username.ToLower()==username.ToLower());
-        
     }
 }

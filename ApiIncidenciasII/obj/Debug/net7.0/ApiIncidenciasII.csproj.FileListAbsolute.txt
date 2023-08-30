@@ -215,3 +215,5 @@ C:\Users\jhose\OneDrive\Escritorio\Programación\CAMPUS\cSharp\incidenciasII_CSh
 C:\Users\jhose\OneDrive\Escritorio\Programación\CAMPUS\cSharp\incidenciasII_CSharp\ApiIncidenciasII\obj\Debug\net7.0\ref\ApiIncidenciasII.dll
 C:\Users\jhose\OneDrive\Escritorio\Programación\CAMPUS\cSharp\incidenciasII_CSharp\ApiIncidenciasII\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\jhose\OneDrive\Escritorio\Programación\CAMPUS\cSharp\incidenciasII_CSharp\ApiIncidenciasII\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jhose\OneDrive\Escritorio\Programación\CAMPUS\cSharp\incidenciasII_CSharp\ApiIncidenciasII\bin\Debug\net7.0\AspNetCoreRateLimit.dll
+C:\Users\jhose\OneDrive\Escritorio\Programación\CAMPUS\cSharp\incidenciasII_CSharp\ApiIncidenciasII\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
