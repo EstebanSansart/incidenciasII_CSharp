@@ -10,9 +10,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : EntidadBase
 {
     private readonly ApiIncidenciasIIContext _context;
 
-    public GenericRepository(ApiIncidenciasIIContext contex)
+    public GenericRepository(ApiIncidenciasIIContext context)
     {
-        _context = contex;
+        _context = context;
     }
 
     public virtual void Add(T entity)
@@ -33,11 +33,6 @@ public class GenericRepository<T> : IGenericRepository<T> where T : EntidadBase
     public virtual async Task<IEnumerable<T>> GetAllAsync()
     {
         return await _context.Set<T>().ToListAsync();
-    }
-
-    public Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search)
-    {
-        throw new NotImplementedException();
     }
 
     public virtual async Task<T> GetByIdAsync(int id)
@@ -64,5 +59,14 @@ public class GenericRepository<T> : IGenericRepository<T> where T : EntidadBase
     {
         _context.Set<T>()
         .Update(entity);
+    }
+    public virtual async Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string _search)
+    {
+        var totalRegistros = await _context.Set<T>().CountAsync();
+        var registros = await _context.Set<T>()
+            .Skip((pageIndex - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+        return (totalRegistros, registros);
     }
 }

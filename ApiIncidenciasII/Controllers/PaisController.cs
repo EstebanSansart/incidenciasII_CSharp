@@ -1,7 +1,9 @@
 using ApiIncidenciasII.Dtos;
+using ApiIncidenciasII.Helpers;
 using AutoMapper;
 using Dominio.Entities;
 using Dominio.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiIncidenciasII.Controllers;
@@ -36,14 +38,15 @@ public class PaisController : BaseApiController
         return _mapper.Map<List<PaisDto>>(paises);
     }
 
-    [HttpGet("{id}")]
+    [HttpGet]
     [MapToApiVersion("1.1")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> Get(string id)
+    public async Task<ActionResult<Pager<PaisxDepDto>>> Get11([FromQuery] Params paisParams)
     {
-        var region = await _unitOfWork.Paises.GetByIdAsync(id);
-        return Ok(region);
+        var pais = await _unitOfWork.Paises.GetAllAsync(paisParams.PageIndex,paisParams.PageSize,paisParams.Search);
+        var lstPaisesDto = _mapper.Map<List<PaisxDepDto>>(pais.registros);
+        return new Pager<PaisxDepDto>(lstPaisesDto,pais.totalRegistros,paisParams.PageIndex,paisParams.PageSize,paisParams.Search);
     }
 
    /* [HttpPost]
